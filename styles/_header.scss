@@ -1,0 +1,74 @@
+
+
+/* nav */
+.navbar {
+     background: $blue;
+     border-color: $blue;
+     min-height: 80px;
+     padding-top: 10px;
+     margin:0;
+    
+    .navbar-brand {
+        @include font-size(48px);
+        font-weight: bold; 
+        color: $white;
+        background-color: $blue;
+
+     }
+    .navbar-brand:hover{
+         color: $black;
+     }
+   
+    .navbar-nav li {
+        a{
+            color: $white;
+        @include font-size(28px);    
+        &:hover,
+        &:focus{
+            color: $black;
+            
+        }
+        span{
+            padding-left: 15px;
+            font-size: 25px;
+            
+        }
+
+        }
+        
+        &.active >a{
+            color: black;
+            background:none;
+            box-shadow:none;
+            &:hover{
+                background:none;
+                color: $white;
+            }
+        }
+    }
+    
+    .navbar-toggle{
+      border-color: $white;
+        
+    .icon-bar {
+    background:$white;
+    }
+    }
+ }
+  
+    
+
+ 
+/* slide */
+#slideImages{
+    margin-bottom: 20px;
+    
+    
+}
+.img-responsive{
+    width: 100%;  
+    height: auto;
+}
+
+
+

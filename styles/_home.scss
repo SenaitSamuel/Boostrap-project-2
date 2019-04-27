@@ -1,0 +1,26 @@
+/* home */
+
+/* content section  */
+.card-index{
+    border: 10px solid $blue !important;
+    min-height: 500px;
+    .card-link{
+        color: $black;
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+        
+        &:hover{
+            color: $blue;
+        }
+        &.active{
+            color: $black;
+            text-decoration: underline;
+        }
+   
+       
+   }
+   
+
+}
+   

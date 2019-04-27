@@ -1,0 +1,35 @@
+/* BlockTags */
+body{
+     font: $font;
+}
+h1{
+    @include font-size(36px);   
+}
+h2{
+    @include font-size(36px);  
+    padding: 10px;
+}
+p{
+    @include font-size(24px);
+    padding: 10px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+a{
+    color: $white;
+    text-decoration: none;
+    
+    &:hover{
+         color: $black;
+         text-decoration: none;
+    }
+}
+
+.card{
+    margin: 15px 0;
+}
+ 
+.page-section{
+    margin: 25px 0;
+}
